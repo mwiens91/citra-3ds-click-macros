@@ -12,7 +12,7 @@ sudo apt install xboxdrv
 
 These macros might work out of the box, but likely you'll need to do some slight modifications to get them working on your end, as the settings will vary with how you like displaying your 3DS touchscreen relative to the 3DS main screen, what resolution your display runs at, and possibly other factors.
 
-In the `click-scripts` directory are a bunch of shell scripts, each of which click a specific pixel on the screen. I have them configured to work with a screen resolution of 1920x1080 for the 3DS Zelda games, using the Citra "Large Screen" screen layout (shown below).
+In the [click-scripts](click-scripts) directory are a bunch of shell scripts, each of which click a specific pixel on the screen. I have them configured to work with a screen resolution of 1920x1080 for the 3DS Zelda games, using the Citra "Large Screen" screen layout (shown below).
 
 ![](https://i.imgur.com/yDAOTfg.png)
 
@@ -24,7 +24,7 @@ xdotool getmouselocation
 
 and then put these coordinates in the appropriate shell script.
 
-To modify what click presses on the Xbox controller map to which click scripts, change `xboxdrv.config`. To see a list of available buttons to map to type
+To modify what click presses on the Xbox controller map to which click scripts, change [xboxdrv.config](xboxdrv.config). To see a list of available buttons to map to type
 
 ```
 xboxdrv --help-button
