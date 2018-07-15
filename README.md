@@ -10,7 +10,7 @@ To use these macros you're going to need to run your Xbox 360 controller with `x
 sudo apt install xboxdrv
 ```
 
-The macros are performed using `xdotool`. If you don't have it, and your on Ubuntu, do
+The macros are performed using `xdotool`. Ubuntu should have xdotool installed by default, but if you are missing it, do
 
 ```
 sudo apt install xdotool
