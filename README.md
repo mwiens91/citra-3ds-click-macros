@@ -10,6 +10,12 @@ To use these macros you're going to need to run your Xbox 360 controller with `x
 sudo apt install xboxdrv
 ```
 
+The macros are performed using `xdotool`, producing fake mouse input. On Ubuntu, install it with
+
+```
+sudo apt install xdotool
+```
+
 These macros might work out of the box, but likely you'll need to do some slight modifications to get them working on your end, as the settings will vary with how you like displaying your 3DS touchscreen relative to the 3DS main screen, what resolution your display runs at, and possibly other factors.
 
 In the [click-scripts](click-scripts) directory are a bunch of shell scripts, each of which click a specific pixel on the screen. I have them configured to work with a screen resolution of 1920x1080 for the 3DS Zelda games, using the Citra "Large Screen" screen layout (shown below).
