@@ -10,7 +10,7 @@ To use these macros you're going to need to run your Xbox 360 controller with `x
 sudo apt install xboxdrv
 ```
 
-The macros are performed using `xdotool`, producing fake mouse input. On Ubuntu, install it with
+The macros are performed using `xdotool`, which produces fake mouse input. On Ubuntu, install it with
 
 ```
 sudo apt install xdotool
